@@ -1,10 +1,15 @@
 import './App.css';
+import './components';
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    // React fragment
+    <>
+      <Header></Header>
+      <Nav></Nav>
+      <Main></Main>
+      <Footer></Footer>
+    </>
   );
 }
 
